@@ -179,8 +179,8 @@ library SafeMath {
 contract BBOCoin is IERC20 {
     using SafeMath for uint256;
 
-    string public name = "BBO Coin";
-    string public symbol = "BBO";
+    string public name = "BMBU Coin";
+    string public symbol = "BMBU";
     uint8 public constant decimals = 18;
     uint256 public constant decimalFactor = 10 ** uint256(decimals);
     uint256 private _totalSupply = 1000000000 * decimalFactor;
