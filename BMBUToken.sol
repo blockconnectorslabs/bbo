@@ -176,7 +176,7 @@ library SafeMath {
         return a % b;
     }
 }
-contract BBOCoin is IERC20 {
+contract BMBUCoin is IERC20 {
     using SafeMath for uint256;
 
     string public name = "BMBU Coin";
